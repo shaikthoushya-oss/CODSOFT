@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: #2c2c2c;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 50px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1522071820081-009f0129c71c');
+  background-size: cover;
+  color: white;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  padding: 12px 25px;
+  background: #4a8cff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Hero Image */
+.hero-img img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  align-items: center;
+  padding: 80px 50px;
+  background: #f4f4f4;
+}
+
+.about-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about-text {
+  margin-left: 50px;
+}
+
+.about-text h2 {
+  font-size: 30px;
+}
+
+.about-text p {
+  color: #555;
+}
+
+.about-text button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #4a8cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c2c2c;
+  color: white;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header>
+  <div>Online Portfolio</div>
+  <nav>
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">SKILLS</a>
+    <a href="#">CONTACT</a>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>AMULU</h1>
+    <p>
+      Hi, I am a Web Developer. I build modern and responsive websites.
+    </p>
+    <button>Hire Me</button>
+  </div>
+
+  <div class="hero-img">
+    <!-- Replace this with your image -->
+    <img src="https://i.imgur.com/6VBx3io.png" alt="profile">
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about">
+  <div class="about-img">
+    <!-- Same image or your photo -->
+    <img src="https://i.imgur.com/6VBx3io.png" alt="profile">
+  </div>
+
+  <div class="about-text">
+    <h2>ABOUT ME</h2>
+    <p>
+      I am a passionate web developer learning HTML, CSS, and JavaScript.
+      I enjoy creating attractive and user-friendly websites.
+    </p>
+    <button>Download Resume</button>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Amulu | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
